@@ -33,7 +33,7 @@
         </div>
         <!-- <input type="submit" value="log-in"> -->
         
-        <input type="submit" class="submit" value="log-in">
+        <input type="submit" class="submit" value="Se Connecter">
     </form>
 
 </div>
@@ -79,15 +79,5 @@ function verifyCred(){
 }
 
 ?>
-
-<div style="color: white;">
-<?php
-    if(checkSession()){
-        var_dump($_SESSION);
-    }else{
-        echo ("pas de sesion");
-    }
-?>
-</div>
 
 
