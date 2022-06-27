@@ -1,3 +1,7 @@
+:root {
+    --bs-dark-rgb: 33, 37, 41;
+}
+
 body {
     align-items: center;
     background-color: #090b1d;
@@ -130,5 +134,4 @@ body {
     margin-top: 10px;
     text-align: center;
     color: lightcoral;
-
 }
