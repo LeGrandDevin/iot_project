@@ -16,8 +16,8 @@
         labels: humlabels,
         datasets: [{
             label: 'Graphique Humidité',
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgb(255, 99, 132)',
+            backgroundColor: 'rgb(50, 20, 255)',
+            borderColor: 'rgb(50, 20, 255)',
             data: [0, 10, 5, 2, 20, 30, 45],
         }]
     };
