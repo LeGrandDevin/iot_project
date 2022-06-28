@@ -62,13 +62,13 @@ $data = $req->fetchAll();
     <div class="graphs">
         <div class="tempgraph">
             <?php
-            require_once "graphstemp.html";
+            require_once "graphstemp.php";
             ?>
         </div>
 
         <div class="humgraph">
             <?php
-            require_once "graphshumidity.html";
+            require_once "graphshumidity.php";
             ?>
         </div>
     </div>

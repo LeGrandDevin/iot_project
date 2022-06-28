@@ -16,8 +16,8 @@
         labels: templabels,
         datasets: [{
             label: 'Graphique Température',
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgb(255, 99, 132)',
+            backgroundColor: 'rgb(255, 20, 50)',
+            borderColor: 'rgb(255, 20, 50)',
             data: [35, 100, 40, 40, 40, 40, 45],
         }]
     };
