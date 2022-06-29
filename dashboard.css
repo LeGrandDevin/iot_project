@@ -11671,8 +11671,11 @@ body {
 }
 
 table {
+    position: relative;
+    left:14%;
+    margin-top: 100px;
     table-layout: fixed;
-    width: 100%;
+    width: 40%;
     border-collapse: collapse;
     border: 3px solid black;
 }
@@ -11687,13 +11690,13 @@ th, td {
     border: 1px solid black;
 }
 
-.table-content {
+/*.table-content {
     position:relative;
     left:14%;
     top:14%;
 }
 
-/*th {
+th {
     text-align: inherit;
     text-align: -webkit-match-parent;
 }
