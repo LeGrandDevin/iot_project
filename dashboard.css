@@ -313,21 +313,7 @@ caption {
     text-align: left;
 }
 
-th {
-    text-align: inherit;
-    text-align: -webkit-match-parent;
-}
 
-thead,
-tbody,
-tfoot,
-tr,
-td,
-th {
-    border-color: inherit;
-    border-style: solid;
-    border-width: 0;
-}
 
 label {
     display: inline-block;
@@ -11618,36 +11604,6 @@ body {
     border-collapse: collapse;
 }
 
-.dataTable-table > tbody > tr > td,
-.dataTable-table > tbody > tr > th,
-.dataTable-table > tfoot > tr > td,
-.dataTable-table > tfoot > tr > th,
-.dataTable-table > thead > tr > td,
-.dataTable-table > thead > tr > th {
-    vertical-align: top;
-    padding: 0.5rem 0.5rem;
-}
-
-.dataTable-table > thead > tr > th {
-    vertical-align: bottom;
-    text-align: left;
-    border-bottom: none;
-}
-
-.dataTable-table > tfoot > tr > th {
-    vertical-align: bottom;
-    text-align: left;
-}
-
-.dataTable-table th {
-    vertical-align: bottom;
-    text-align: left;
-}
-
-.dataTable-table th a {
-    text-decoration: none;
-    color: inherit;
-}
 
 .dataTable-sorter {
     display: inline-block;
@@ -11718,11 +11674,69 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    border: 3px solid purple;
+    border: 3px solid black;
 }
 
 th, td {
     padding: 20px;
+    border: 1px solid black;
+}
+
+.header-item .table-data{
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.table-content {
+    position:relative;
+    left:14%;
+    top:14%;
+}
+
+/*th {
+    text-align: inherit;
+    text-align: -webkit-match-parent;
+}
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
 }
 
 
+.dataTable-table > tbody > tr > td,
+.dataTable-table > tbody > tr > th,
+.dataTable-table > tfoot > tr > td,
+.dataTable-table > tfoot > tr > th,
+.dataTable-table > thead > tr > td,
+.dataTable-table > thead > tr > th {
+    vertical-align: top;
+    padding: 0.5rem 0.5rem;
+}
+
+.dataTable-table > thead > tr > th {
+    vertical-align: bottom;
+    text-align: left;
+    border-bottom: none;
+}
+
+.dataTable-table > tfoot > tr > th {
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.dataTable-table th {
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.dataTable-table th a {
+    text-decoration: none;
+    color: inherit;
+}*/
