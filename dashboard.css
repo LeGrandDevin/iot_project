@@ -11661,6 +11661,7 @@ body {
     position:relative;
     top: 100px;
     left: 14%;
+    margin-bottom: 100px;
 }
 
 .humgraph {
@@ -11671,23 +11672,27 @@ body {
 }
 
 table {
-    position: relative;
-    left:14%;
-    margin-top: 100px;
-    table-layout: fixed;
-    width: 40%;
-    border-collapse: collapse;
     border: 3px solid black;
 }
 
 th, td {
-    padding: 20px;
     border: 1px solid black;
+}
+
+thead {
+    background-color: #b6effb;
 }
 
 .header-item .table-data{
     padding: 20px;
     border: 1px solid black;
+}
+
+.tables {
+    margin-top: 100px;
+    width: 700px;
+    position:relative;
+    left:15%;
 }
 
 /*.table-content {
