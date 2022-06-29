@@ -33,6 +33,39 @@ function connect(){
 }
 
 
+function getCaptorTempValue(string $from, string $to){
+    $db = getDbAccess();
+    $req = $db->prepare('SELECT temperature, date FROM captorData WHERE date > "' .  $from . '" AND date < "' . $to . '"');
+    $req->execute();
+    return $req->fetchAll(PDO::FETCH_ASSOC);
+}
+
+function formatTempValuetoChart($values){
+    $result = '';
+    $count = sizeof($values);
+    foreach($values as $value){
+        $result .= "{x: '" . $value['date'] . "', y: " . $value['temperature'] . '}' . (--$count > 0 ? ',' : '');
+    }
+    return $result;
+}
+
+function getCaptorHumValue(string $from, string $to){
+    $db = getDbAccess();
+    $req = $db->prepare('SELECT humidity, date FROM captorData WHERE date > "' .  $from . '" AND date < "' . $to . '"');
+    $req->execute();
+    return $req->fetchAll(PDO::FETCH_ASSOC);
+}
+
+function formatHumValuetoChart($values){
+    $result = '';
+    $count = sizeof($values);
+    foreach($values as $value){
+        $result .= "{x: '" . $value['date'] . "', y: " . $value['humidity'] . '}' . (--$count > 0 ? ',' : '');
+    }
+    return $result;
+}
+
+
 
 
 ?>
