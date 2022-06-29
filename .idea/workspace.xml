@@ -4,8 +4,6 @@
     <list default="true" id="40f68b3f-5545-4626-bcab-4d698fb03911" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs.php" beforeDir="false" afterPath="$PROJECT_DIR$/graphs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/tables.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,39 +15,40 @@
     <session id="-1430267356">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="3" />
+          <entry key="css" value="4" />
           <entry key="html" value="4" />
           <entry key="php" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
+          <entry key="CSS" value="4" />
           <entry key="HTML" value="4" />
           <entry key="PHP" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="369" />
+          <entry key="css" value="622" />
           <entry key="html" value="172" />
-          <entry key="php" value="750" />
+          <entry key="php" value="767" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="369" />
+          <entry key="CSS" value="622" />
           <entry key="HTML" value="172" />
-          <entry key="PHP" value="749" />
+          <entry key="PHP" value="766" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -60,57 +59,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="831">
-              <caret line="11725" column="1" selection-start-line="11725" selection-start-column="1" selection-end-line="11725" selection-end-column="1" />
-              <folding>
-                <element signature="e#41955#42178#2" expanded="true" />
-                <element signature="e#44550#44771#2" expanded="true" />
-                <element signature="e#44837#44970#2" expanded="true" />
-                <element signature="e#45103#45318#2" expanded="true" />
-                <element signature="e#45672#45822#2" expanded="true" />
-                <element signature="e#46117#46253#2" expanded="true" />
-                <element signature="e#46359#46492#2" expanded="true" />
-                <element signature="e#55485#55719#2" expanded="true" />
-                <element signature="e#57108#57331#1" expanded="true" />
-                <element signature="e#57333#57567#1" expanded="true" />
-                <element signature="e#60156#60470#2" expanded="true" />
-                <element signature="e#61899#62122#1" expanded="true" />
-                <element signature="e#62124#62438#1" expanded="true" />
-                <element signature="e#102472#102707#2" expanded="true" />
-                <element signature="e#103615#103856#2" expanded="true" />
-                <element signature="e#108276#108547#2" expanded="true" />
-                <element signature="e#108733#109004#2" expanded="true" />
-                <element signature="e#128318#128631#1" expanded="true" />
-                <element signature="e#145369#145616#2" expanded="true" />
-                <element signature="e#145673#145921#2" expanded="true" />
-              </folding>
+            <state relative-caret-position="432">
+              <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tables.php">
+        <entry file="file://$PROJECT_DIR$/dashboard.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="117">
+              <caret line="11675" column="22" selection-start-line="11675" selection-start-column="22" selection-end-line="11675" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tables.css">
+        <entry file="file://$PROJECT_DIR$/tables.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="578">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -118,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="935">
               <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
             </state>
           </provider>
@@ -156,6 +124,9 @@
     <findStrings>
       <find>canvas</find>
       <find>label</find>
+      <find>table</find>
+      <find>th</find>
+      <find>td</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,9 +144,9 @@
         <option value="$PROJECT_DIR$/graphshumidity.html" />
         <option value="$PROJECT_DIR$/graphstemp.html" />
         <option value="$PROJECT_DIR$/graphs.php" />
-        <option value="$PROJECT_DIR$/dashboard.css" />
-        <option value="$PROJECT_DIR$/tables.php" />
         <option value="$PROJECT_DIR$/tables.css" />
+        <option value="$PROJECT_DIR$/tables.php" />
+        <option value="$PROJECT_DIR$/dashboard.css" />
       </list>
     </option>
   </component>
@@ -187,14 +158,16 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="871" />
+    <option name="y" value="10" />
     <option name="width" value="1057" />
-    <option name="height" value="1047" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,7 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,18 +215,20 @@
       <workItem from="1656268980658" duration="3724000" />
       <workItem from="1656313806908" duration="9214000" />
       <workItem from="1656352733610" duration="6162000" />
-      <workItem from="1656439890522" duration="9192000" />
+      <workItem from="1656439890522" duration="9581000" />
+      <workItem from="1656526945770" duration="2634000" />
+      <workItem from="1656529633851" duration="616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28292000" />
+    <option name="totallyTimeSpent" value="31931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0058635394" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08955224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -283,10 +257,29 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.html" />
-    <entry file="file://$PROJECT_DIR$/graphshumidity.html">
+    <entry file="file://$PROJECT_DIR$/graphshumidity.html" />
+    <entry file="file://$PROJECT_DIR$/graphstemp.html" />
+    <entry file="file://$PROJECT_DIR$/tables.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tables.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -294,20 +287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2329">
           <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphstemp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -320,58 +299,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="432">
+          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="11725" column="1" selection-start-line="11725" selection-start-column="1" selection-end-line="11725" selection-end-column="1" />
-          <folding>
-            <element signature="e#41955#42178#2" expanded="true" />
-            <element signature="e#44550#44771#2" expanded="true" />
-            <element signature="e#44837#44970#2" expanded="true" />
-            <element signature="e#45103#45318#2" expanded="true" />
-            <element signature="e#45672#45822#2" expanded="true" />
-            <element signature="e#46117#46253#2" expanded="true" />
-            <element signature="e#46359#46492#2" expanded="true" />
-            <element signature="e#55485#55719#2" expanded="true" />
-            <element signature="e#57108#57331#1" expanded="true" />
-            <element signature="e#57333#57567#1" expanded="true" />
-            <element signature="e#60156#60470#2" expanded="true" />
-            <element signature="e#61899#62122#1" expanded="true" />
-            <element signature="e#62124#62438#1" expanded="true" />
-            <element signature="e#102472#102707#2" expanded="true" />
-            <element signature="e#103615#103856#2" expanded="true" />
-            <element signature="e#108276#108547#2" expanded="true" />
-            <element signature="e#108733#109004#2" expanded="true" />
-            <element signature="e#128318#128631#1" expanded="true" />
-            <element signature="e#145369#145616#2" expanded="true" />
-            <element signature="e#145673#145921#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tables.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="117">
+          <caret line="11675" column="22" selection-start-line="11675" selection-start-column="22" selection-end-line="11675" selection-end-column="22" />
         </state>
       </provider>
     </entry>
