@@ -1,6 +1,4 @@
-<?php
-require_once 'head.php'
-?>
+
 
 
 <!DOCTYPE html>
@@ -22,6 +20,9 @@ require_once 'head.php'
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 
 </head>
+<?php
+require_once 'header.php'
+?>
 <div class="graphs">
     <div class="tempgraph">
         <?php

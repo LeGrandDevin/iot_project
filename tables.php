@@ -20,7 +20,7 @@ require_once 'isConnected.php';
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 </head>
 <?php
-include_once 'head.php';
+include_once 'header.php';
 require_once 'tableBack.php';
 ?>
 
