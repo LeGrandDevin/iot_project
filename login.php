@@ -14,7 +14,7 @@ session_start();
 </head>
 <body>
     <?php 
-    if(!(isset($_SESSION['connected']) && $_SESSION['connected'])){
+    if(!isConnected()){
     ?>
 <div class="form">
     <div class="title">Bonjour !</div>
