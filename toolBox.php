@@ -1,7 +1,9 @@
 <?php
 
+include 'config.php';
+
 function getDbAccess(): PDO {
-    return new PDO ("mysql:host=185.224.138.133;dbname=u928306449_groupe_quatre;charset=utf8","u928306449_groupe_quatre","KeyceGroupe4");
+    return new PDO (DB_TYPE . ":host=" . DB_HOST .";dbname=" . DB_NAME .";charset=utf8", DB_USERNAME, DB_PASSWORD);
 }
 
 function verifyCred($login, $password){
@@ -67,6 +69,13 @@ function formatHumValuetoChart($values){
         $result .= "{x: '" . $value['date'] . "', y: " . $value['humidity'] . '}' . (--$count > 0 ? ',' : '');
     }
     return $result;
+}
+
+function getCaptorAllValue(string $from, string $to){
+    $db = getDbAccess();
+    $req = $db->prepare('SELECT * FROM captorData WHERE date > "' .  $from . '" AND date < "' . $to . '"');
+    $req->execute();
+    return $req->fetchAll(PDO::FETCH_ASSOC);
 }
 
 
