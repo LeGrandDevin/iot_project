@@ -7,6 +7,9 @@ function getDbAccess(): PDO {
 }
 
 function verifyCred($login, $password){
+    if(!ctype_alnum($login)){
+        return false;
+    }
     $db = getDbAccess();
     $req = $db->prepare('SELECT * FROM credentials WHERE identifiant = "' .  $login . '" AND password = "' . $password . '"');
     $req->execute();
