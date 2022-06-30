@@ -17,8 +17,8 @@ session_start();
     if(!isConnected()){
     ?>
 <div class="form">
-    <div class="title">Bonjour !</div>
-    <div class="subtitle">Veuillez remplir ces champs pour vous connecter</div>
+    <div class="title">Bonjour!</div>
+    <div class="subtitle">Veuillez vous connecter!</div>
     <form method="post" action="">
         <!-- <label>login</label> -->
         <div class="input-container ic1">
