@@ -32,6 +32,10 @@ function connect(){
 
 }
 
+function isConnected(): bool {
+    return isset($_SESSION['connected']) && $_SESSION['connected'];
+}
+
 
 function getCaptorTempValue(string $from, string $to){
     $db = getDbAccess();
