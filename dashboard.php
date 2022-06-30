@@ -18,28 +18,28 @@
 include_once 'header.php';
 ?>
 
+    <div class="datapres">
+        <div class="graphs">
+            <div class="tempgraph">
+                <?php
+                require_once "graphstemp.php";
+                ?>
+            </div>
 
-    <div class="graphs">
-        <div class="tempgraph">
-            <?php
-            require_once "graphstemp.php";
-            ?>
+            <div class="humgraph">
+                <?php
+                require_once "graphshumidity.php";
+                ?>
+            </div>
         </div>
 
-        <div class="humgraph">
-            <?php
-            require_once "graphshumidity.php";
-            ?>
+        <div class="tablesclass1">
+            <div class="tablesclass2">
+                <?php
+                require_once "tableBack.php";
+                ?>
+            </div>
         </div>
     </div>
-
-    <div class="tablesclass1">
-        <div class="tablesclass2">
-            <?php
-            require_once "tableBack.php";
-            ?>
-        </div>
-    </div>
-
 </body>
 </html>
