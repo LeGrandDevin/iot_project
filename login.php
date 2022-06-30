@@ -51,7 +51,7 @@ session_start();
     
 <div class="form">
     <div class="title">Bonjour !</div>
-    <div class="subtitle">Il semblerais que vous soyez déjà connécté</div>
+    <div class="subtitle">Il semblerait que vous soyez déjà connecté</div>
     <form method="post" action="dashboard.php">
        <input type="submit" class="submit" value="Aller au Dashboard">
     </form>
