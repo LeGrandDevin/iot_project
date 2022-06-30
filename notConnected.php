@@ -12,7 +12,7 @@
         <div class="title">Bonjour !</div>
         <div class="subtitle">Il semblerait que vous ne soyez pas connécté</div>
         <form method="post" action="login.php">
-            <input type="submit" class="submit" value="se connecter">
+            <input type="submit" class="submit" value="Se Connecter">
         </form>
     </div>
 </body>
