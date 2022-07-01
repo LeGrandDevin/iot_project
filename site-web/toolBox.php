@@ -27,7 +27,7 @@ function connect(){
                 $_SESSION['login'] = $_POST['login']; //write login to server storage
                 $_SESSION['connected'] = true;
                 $_SESSION['user'] = $_POST['login'];
-                header('Location: /iot_project/dashboard.php'); //redirect to main
+                header('Location: dashboard.php'); //redirect to main
             }
         else{
             echo('mauvais identifiant ou mots de passe');
