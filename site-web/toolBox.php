@@ -22,7 +22,7 @@ function verifyCred($login, $password){
 
 function connect(){
     if (isset($_POST['login']) && isset($_POST['password'])){ //when form submitted
-        if (verifyCred($_POST['login'], $_POST['password']))
+        if (verifyCred($_POST['login'], hash('sha512', $_POST['password'])))
             {
                 $_SESSION['login'] = $_POST['login']; //write login to server storage
                 $_SESSION['connected'] = true;
