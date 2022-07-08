@@ -11,7 +11,7 @@ require_once 'isConnected.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="dashboard.css" />
-    <title>Dashboard</title>
+    <title>Projet IOT - Dashboard</title>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
     <script src="tables.js"></script>
